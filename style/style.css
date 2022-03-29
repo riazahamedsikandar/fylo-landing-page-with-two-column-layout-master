@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&family=Inter:wght@400;700&family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&family=Inter:wght@400;700&family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --clr-Very-Dark-Blue: hsl(243, 87%, 12%);
+    --clr-Desaturated-Blue: hsl(238, 22%, 44%);
+    --clr-Bright-Blue: hsl(224, 93%, 58%);
+    --clr--Moderate-Cyan: hsl(170, 45%, 43%);
+    --clr-Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --clr-Light-Gray: hsl(0, 0%, 75%);
+}
+body{
+    margin: 1rem;
+    background-color: var(--clr-Light-Grayish-Blue);
+}
+nav{
+    margin-top: 2rem;
+
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+h4 a{
+    padding: 0.5rem;
+    color: black;
+    font-size: 1rem;
+}
+.logo-img{
+    width: 8rem;
+}
