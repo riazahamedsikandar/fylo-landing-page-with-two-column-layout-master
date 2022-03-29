@@ -37,3 +37,37 @@ h4 a{
 .logo-img{
     width: 8rem;
 }
+.all{
+    margin: 1rem;
+    margin-top: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.all h2{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.all p{
+    font-size: .9rem;
+    margin-top: 1rem;
+}
+
+input{
+    height: 1.5rem;
+    margin-right: 5px;
+}
+.all button{
+    background-color: var(--clr-Bright-Blue);
+    width: 8rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    border-color: var(--clr-Bright-Blue);
+    color: var(--clr-Light-Grayish-Blue);
+}
+section img{
+    float: right;
+    width: 44%
+    
+}
+
