@@ -264,3 +264,41 @@ ul{
 .social i{
     padding-left: 3rem;
 }
+
+
+@media screen and (min-width: 768px) {
+    body{
+        min-width: 100vh;
+        margin: 2rem;
+    }
+    nav{
+        padding-bottom: 4rem;
+    }
+    .nav1 img{
+        width: 10rem;
+    }
+    h4 a{
+        font-size: 1rem;
+        padding: 2rem;
+    }
+    section img{
+        float: right;
+        width: 40rem;
+        height: 20rem;
+        
+    }
+    input{
+        width: 25%;
+    }
+    .all button{
+        width: 20%;
+        padding-top: 1rem;
+
+    }
+    .all p{
+        text-align: left;
+    }
+    
+
+    
+}
