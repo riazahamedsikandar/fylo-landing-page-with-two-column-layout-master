@@ -25,6 +25,7 @@ nav{
 .navbar{
     display: flex;
     justify-content: right;
+    margin-top: -3rem;
     margin-bottom: 2rem;
     font-family: 'Raleway', sans-serif;
 }
