@@ -107,7 +107,7 @@ p.one{
     margin-top: 1rem;
 }
 
-a:link{
+.fylo a:link{
     color: var(--clr--Moderate-Cyan);
     display: block;
     text-align: center;
