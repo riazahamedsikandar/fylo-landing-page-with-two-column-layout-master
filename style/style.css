@@ -15,7 +15,7 @@
     --clr-Light-Gray: hsl(0, 0%, 75%);
 }
 body{
-    margin: 1rem;
+    margin: 
     background-color: var(--clr-Light-Grayish-Blue);
 }
 nav{
@@ -34,8 +34,9 @@ nav{
 }
 
 h4 a{
+    color: var(--clr-Light-Gray);
     padding: 0.5rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
     color: black;
     font-size: .8rem;
 }
@@ -48,15 +49,17 @@ h4 a{
     font-family: 'Open Sans', sans-serif;
 }
 .all h2{
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: flex-start;
+    font-size: 1.9rem;
+    text-align: center;
+    color: var(--clr-Very-Dark-Blue);
+    font-weight: 1000;
 }
 
 .all p{
-    margin: 1rem 0.5rem 0.5rem 2rem;
-    font-size: 1.1rem;
+    margin-top: 1rem;
     text-align: center;
+    font-size: 1.1rem;
+    
 }
 
 input{
@@ -96,6 +99,7 @@ section img{
     font-size: 1.1rem;
     color: var(--clr-Light-Gray);
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
 }
 
 p.one{
@@ -132,7 +136,7 @@ a:link{
     box-shadow: 8px 7px 28px -11px;
     border-radius: 1px;
     margin-top: 4rem;
-    padding-bottom: 7rem;
+    padding-bottom: 5rem;
     padding-left: 2rem;
     padding-right: 2rem;
 }
