@@ -366,7 +366,7 @@ ul{
     }
     .logo{
         width: 35.5rem;
-        margin-top: 4.5rem;
+        margin-top: 
     }
     .logo img{
         width: 1rem;
@@ -375,7 +375,8 @@ ul{
         margin-top: 1.5rem;
     }
     .logo p{
-        color:;
+        font-size: 0.8rem;
+        
     
     }
 
